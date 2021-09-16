@@ -17,7 +17,7 @@ const generateTeamPage = function (employeeInfoCards) {
     <link href="https://fonts.googleapis.com/css?family=Public+Sans:300i,300,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="./style1.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 
@@ -113,8 +113,8 @@ const handleIntern = function (intern) {
             <div class="card-body">
                <p class="id">ID: ${intern.id}</p>
                <p class="email">Email: <a href="mailto:${intern.email}">${intern.email}</a></p>
-               <p class="University">University: ${intern.University}</p>
-               <p class="graduationYear">Graduation Year: ${intern.graduationYear}</p>
+               <p class="University">University: ${intern.university}</p>
+               <p class="graduationYear">Graduation Year: ${intern.graduationyear}</p>
             </div>
         </div>
     </div>

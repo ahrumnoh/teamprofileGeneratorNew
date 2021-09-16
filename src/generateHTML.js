@@ -52,7 +52,7 @@ const generateTeamPage = function (employeeInfoCards) {
 
 
 // to make Manager card😎
-const handleManager = function (manager) {
+const ManagerCard = function (manager) {
     return `
     <div class="col-4 mt-4">
         <div class="card h-100">
@@ -75,7 +75,7 @@ const handleManager = function (manager) {
 
 //to make Engineer card💻
 
-const handleEngineer = function (engineer) {
+const EngineerCard = function (engineer) {
     return `
     <div class="col-4 mt-4">
         <div class="card h-100">
@@ -101,7 +101,7 @@ const handleEngineer = function (engineer) {
 
 
 
-const handleIntern = function (intern) {
+const InternCard = function (intern) {
     return `
     <div class="col-4 mt-4">
         <div class="card h-100">
@@ -136,14 +136,14 @@ generateHTML = (data) => {
 
         //manager function
         if (role === 'Manager') {
-            const managerCard = handleManager(employee);
+            const managerCard = ManagerCard(employee);
 
             pageArray.push(managerCard);
         }
 
         //call engineer
         if (role === 'Engineer') {
-            const engineerCard = handleEngineer(employee);
+            const engineerCard = EngineerCard(employee);
         
             pageArray.push(engineerCard);
         }
@@ -151,7 +151,7 @@ generateHTML = (data) => {
         //call intern
 
         if (role === 'Intern') {
-            const internCard = handleIntern(employee);
+            const internCard = InternCard(employee);
         
             pageArray.push(internCard);
         }

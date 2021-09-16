@@ -10,7 +10,7 @@ const generateTeamPage = function (employeeInfoCards) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Team Profile Management</title>
+    <title>AHRUM NOh's Profile Management💻</title>
 
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
@@ -24,7 +24,7 @@ const generateTeamPage = function (employeeInfoCards) {
 <body>
     <body>
         <header>
-            <h1>Team Profile Management</h1>           
+            <h1>A.NOH TEAM Management💻</h1>           
         </header>
 
 

@@ -179,9 +179,10 @@ const addEmployee = () => {
             when: (input) => input.role === "Intern",
             validate: nameInput => {
                 if (isNaN(nameInput)) {
-                    return true;
-                } else {
                     console.log ("Please let us know when you graduated in Year")
+                    return false;
+                } else {
+                    return true;
                 }
             }
         },
@@ -195,7 +196,7 @@ const addEmployee = () => {
     .then(employeeData => {
         // data for employee types 
 
-        let { name, id, email, role, github, university,city, graduationYear, confirmAddEmployee } = employeeData; 
+        let { name, id, email, role, github, university,city, graduationyear, confirmAddEmployee } = employeeData; 
         let employee; 
 
         if (role === "Engineer") {
@@ -204,7 +205,7 @@ const addEmployee = () => {
             console.log(employee);
 
         } else if (role === "Intern") {
-            employee = new Intern (name, id, email, university, graduationYear);
+            employee = new Intern (name, id, email, university, graduationyear);
 
             console.log(employee);
         }

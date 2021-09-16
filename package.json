@@ -1,0 +1,27 @@
+{
+  "name": "teamprofileGeneratorNew",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahrumnoh/teamprofileGeneratorNew.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahrumnoh/teamprofileGeneratorNew/issues"
+  },
+  "homepage": "https://github.com/ahrumnoh/teamprofileGeneratorNew#readme",
+  "dependencies": {
+    "inquirer": "^8.1.5"
+  }
+}

@@ -166,7 +166,7 @@ const addEmployee = () => {
                 if (nameInput) {
                     return true;
                 } else {
-                    console.log ("Please enter the intern's University!")
+                    console.log ("Please enter your university🏫")
                 }
             }
         },
@@ -178,7 +178,7 @@ const addEmployee = () => {
             message: "Please let us know when you graduated in Year",
             when: (input) => input.role === "Intern",
             validate: nameInput => {
-                if (nameInput) {
+                if (isNaN(nameInput)) {
                     return true;
                 } else {
                     console.log ("Please let us know when you graduated in Year")

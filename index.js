@@ -79,9 +79,9 @@ const addManager = () => {
 
 const addEmployee = () => {
     console.log(`
-    ==============================================
-    🚩 Welcome to employees's section to the team
-    ==============================================
+    =========================================================
+    🚩 Welcome to employees's section to the team of AHRUM's
+    =========================================================
     `);
 
     return inquirer.prompt ([
@@ -232,16 +232,17 @@ const writeFile = data => {
         } else {
             console.log(`
         ===================================================
-                       🎇✨Congrats!✨🎇
+                    🎇🎆🎇✨Congrats!✨🎇🎇🎆
         ===================================================
           
-          Your team profile has been successfully created! 
+          AHRUM's team profile has been successfully created! 
 
         ===================================================
 
                               💻
                               
-        Please check out the 'index.html' in dist folder
+        ✔Please check out the 'index.html' in dist folder
+        👨‍💻 This Program was built by AHRUM NOH
         ===================================================
         
         `)

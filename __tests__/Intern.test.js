@@ -16,20 +16,20 @@ test("Set Graduation Year in constuctor", () => {
 test("Get University using getUniversity() function", () => {
     const getUniversity = "USYD";
     const employee = new Intern("ahrum", 1, "ahrum@gmail.com", getUniversity);
-    expect(employee.getUniversity()).toBe(getUniversity);
+    expect(employee.getUniversity()).toStrictEqual(getUniversity);
 });
 
 
 test("Get Graduation Year using getGraduationYear() function", () => {
     const getGradYear = "2020";
     const employee = new Intern("ahrum", 1, "ahrum@gmail.com", "USYD", getGradYear);
-    expect(employee.getGraduationYear()).toBe(getGradYear);
+    expect(employee.getGraduationYear()).toStrictEqual(getGradYear);
 });
 
 
 test("getRole() functions", () => {
     const getRole = "Intern";
     const employee = new Intern("ahrum", 1, "ahrum@gmail.com", "USYD");
-    expect(employee.getRole()).toBe(getRole);
+    expect(employee.getRole()).toStrictEqual(getRole);
 });
 

@@ -9,10 +9,10 @@ const fs = require('fs');
 const inquirer = require('inquirer');
 
 
-const teamArray = []; 
+const employeeArray = [];   //team const teamArray = []; 
 
 
-const addManager = () => {
+const selectedManager = () => {  //addManager
     return inquirer.prompt ([
         {
             type: 'input',
@@ -72,12 +72,12 @@ const addManager = () => {
         const  { name, id, email, officeNB } = managerInput; 
         const manager = new Manager (name, id, email, officeNB);
 
-        teamArray.push(manager); 
+        employeeArray.push(manager);  //<
         console.log(manager); 
     })
 };
 
-const addEmployee = () => {
+const selectedEmployee = () => {
     console.log(`
     =========================================================
     🚩 Welcome to employees's section to the team of AHRUM's
@@ -209,12 +209,12 @@ const addEmployee = () => {
             console.log(employee);
         }
 
-        teamArray.push(employee); 
+        employeeArray.push(employee);  //<
 
         if (confirmAddEmployee) {
-            return addEmployee(teamArray); 
+            return selectedEmployee(employeeArray);  //<
         } else {
-            return teamArray;
+            return employeeArray; //<
         }
     })
 
@@ -235,14 +235,14 @@ const writeFile = data => {
                     🎇🎆🎇✨Congrats!✨🎇🎇🎆
         ===================================================
           
-          AHRUM's team profile has been successfully created! 
+        AHRUM's team profile has been successfully created! 
 
         ===================================================
 
                               💻
                               
-        ✔Please check out the 'index.html' in dist folder
-        👨‍💻 This Program was built by AHRUM NOH
+        🚩 Please check out the 'index.html' in dist folder
+        💻 This Program was built by AHRUM NOH
         ===================================================
         
         `)
@@ -250,10 +250,10 @@ const writeFile = data => {
     })
 }; 
 
-addManager()
-  .then(addEmployee)
-  .then(teamArray => {
-    return generateHTML(teamArray);
+selectedManager()
+  .then(selectedEmployee)
+  .then(employeeArray => {  //<
+    return generateHTML(employeeArray);  //<
   })
   .then(pageHTML => {
     return writeFile(pageHTML);

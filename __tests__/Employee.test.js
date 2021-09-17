@@ -20,29 +20,29 @@ test("Set ID using constructor", () => {
 test("Set Email using constructor", () => {
     const Email = "ahrumnoh@gmail.com";
     const employee = new Employee("Ahrum", 1, Email);
-    expect(employee.email).toBe(Email);
+    expect(employee.email).toStrictEqual(Email);
 });
 
 test("Get name using getName()", () => {
     const Name = "Jake";
     const employee = new Employee(Name);
-    expect(employee.getName()).toBe(Name);
+    expect(employee.getName()).toStrictEqual(Name);
 });
 
 test("Get ID using getId()", () => {
     const ID = 60;
     const employee = new Employee("Ahrum", ID);
-    expect(employee.getId()).toBe(ID);
+    expect(employee.getId()).toStrictEqual(ID);
 });
 
 test("Get Email using getEmail()", () => {
     const testEmail = "ahrumnoh@gmail.com";
     const employee = new Employee("Ahrum", 1, testEmail);
-    expect(employee.getEmail()).toBe(testEmail);
+    expect(employee.getEmail()).toStrictEqual(testEmail);
 });
 
-test("getRole() function", () => {
-    const testValue = "Employee";
+test("Using getRole() function", () => {
+    const testRole = "Employee";
     const employee = new Employee("Ahrum", 1, "ahrumnoh@gmail.com");
-    expect(employee.getRole()).toBe(testValue);
+    expect(employee.getRole()).toStrictEqual(testRole);
 });

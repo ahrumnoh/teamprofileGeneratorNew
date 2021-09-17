@@ -33,9 +33,9 @@ This program is a perfect tool to manage all members of organization and company
 
 
 
-[![Watch the video](https://github.com/ahrumnoh/ReadmeGenerator/blob/main/Image/Check%20the%20video%20NOW%20(1).jpg?raw=true)](https://drive.google.com/file/d/1Ht44m8XZ1de1TcEGawp2o_PXZ0cCzMfN/view)
+[![Watch the video](https://github.com/ahrumnoh/ReadmeGenerator/blob/main/Image/Check%20the%20video%20NOW%20(1).jpg?raw=true)](https://drive.google.com/file/d/1CHRLiCA7JfyfmNFPyUagGy3Q3piqidDw/view)
 
-🎈URL: https://drive.google.com/file/d/1Ht44m8XZ1de1TcEGawp2o_PXZ0cCzMfN/view
+🎈URL: https://drive.google.com/file/d/1CHRLiCA7JfyfmNFPyUagGy3Q3piqidDw/view
 
 
 

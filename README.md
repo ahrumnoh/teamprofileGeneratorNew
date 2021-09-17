@@ -53,7 +53,7 @@ The user should clone the repository from GitHub and download Node. This applica
 
 
 ## Delightful JavaScript Testing
-![JEST](https://github.com/ahrumnoh/team-profileGenerator/blob/main/assets/Screenshot%20(53).png?raw=true)
+![JEST](https://github.com/ahrumnoh/teamprofileGeneratorNew/blob/main/assets/2021-09-18%20(11).png?raw=true)
 * 🚦  npm install --save-dev 
 * 🧮 npm run test / npm test
 

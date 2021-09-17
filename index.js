@@ -9,10 +9,10 @@ const fs = require('fs');
 const inquirer = require('inquirer');
 
 
-const employeeArray = [];   //team const teamArray = []; 
+const employeeArray = [];   
 
 
-const selectedManager = () => {  //addManager
+const selectedManager = () => {  
     return inquirer.prompt ([
         {
             type: 'input',
@@ -72,7 +72,7 @@ const selectedManager = () => {  //addManager
         const  { name, id, email, officeNB } = managerInput; 
         const manager = new Manager (name, id, email, officeNB);
 
-        employeeArray.push(manager);  //<
+        employeeArray.push(manager); 
         console.log(manager); 
     })
 };
@@ -209,19 +209,19 @@ const selectedEmployee = () => {
             console.log(employee);
         }
 
-        employeeArray.push(employee);  //<
+        employeeArray.push(employee);  
 
         if (confirmAddEmployee) {
-            return selectedEmployee(employeeArray);  //<
+            return selectedEmployee(employeeArray); 
         } else {
-            return employeeArray; //<
+            return employeeArray; 
         }
     })
 
 };
 
 
-// function to generate HTML page file using file system 
+
 const writeFile = data => {
     fs.writeFile('./dist/index.html', data, err => {
         
@@ -252,8 +252,8 @@ const writeFile = data => {
 
 selectedManager()
   .then(selectedEmployee)
-  .then(employeeArray => {  //<
-    return generateHTML(employeeArray);  //<
+  .then(employeeArray => {  
+    return generateHTML(employeeArray);  
   })
   .then(pageHTML => {
     return writeFile(pageHTML);

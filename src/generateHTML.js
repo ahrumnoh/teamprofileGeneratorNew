@@ -69,7 +69,7 @@ const ManagerCard = function (manager) {
 
 
 
-//to make Engineer card💻
+
 
 const EngineerCard = function (engineer) {
     return `
@@ -92,8 +92,6 @@ const EngineerCard = function (engineer) {
 }
 
 
-
-//to make Intern card🌱
 
 
 
@@ -119,8 +117,6 @@ const InternCard = function (intern) {
 
 
 
-
-
 generateHTML = (data) => {
 
     pageArray = [];
@@ -130,21 +126,21 @@ generateHTML = (data) => {
         const role = employee.getRole();
 
 
-        //manager function
+        //manager 
         if (role === 'Manager') {
             const managerCard = ManagerCard(employee);
 
             pageArray.push(managerCard);
         }
 
-        //call engineer
+        //engineer
         if (role === 'Engineer') {
             const engineerCard = EngineerCard(employee);
         
             pageArray.push(engineerCard);
         }
 
-        //call intern
+        //intern
 
         if (role === 'Intern') {
             const internCard = InternCard(employee);

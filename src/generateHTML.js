@@ -70,7 +70,7 @@ const ManagerCard = function (manager) {
 
 
 
-
+// to make Engineer card😎
 const EngineerCard = function (engineer) {
     return `
     <div class="col-4 mt-4">
@@ -94,7 +94,7 @@ const EngineerCard = function (engineer) {
 
 
 
-
+// to make Intern card😎
 const InternCard = function (intern) {
     return `
     <div class="col-4 mt-4">

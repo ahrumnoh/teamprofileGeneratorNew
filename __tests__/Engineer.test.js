@@ -27,8 +27,6 @@ test("getCity() function", () => {
 });
 
 
-
-
 test("getRole() function", () => {
     const getRole = "Engineer";
     const employee = new Engineer("ahrum", 1, "ahrum@gmail.com", "ahrumnoh");

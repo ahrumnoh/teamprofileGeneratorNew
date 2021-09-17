@@ -24,7 +24,7 @@ test("Set Email using constructor", () => {
 });
 
 test("Get name using getName()", () => {
-    const Name = "Jake";
+    const Name = "ahrum";
     const employee = new Employee(Name);
     expect(employee.getName()).toStrictEqual(Name);
 });

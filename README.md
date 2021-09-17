@@ -1,6 +1,6 @@
 ## ⛅Welcome to 'Team-Profile-Generator'
 
-![Readme Generator](https://github.com/ahrumnoh/team-profileGenerator/blob/main/assets/Team%20profile%20-generator.jpg?raw=true)
+![Readme Generator](https://github.com/ahrumnoh/teamprofileGeneratorNew/blob/main/assets/Team-Profile-Generator.gif?raw=true)
 
 
 
@@ -13,15 +13,15 @@ This program is a perfect tool to manage all members of organization and company
 
 
 ## The process to create informations of Emloyees at terminal using VS code
-![VS terminal image1](https://github.com/ahrumnoh/team-profileGenerator/blob/main/assets/Screenshot%20(41).png)
+![VS terminal image1](https://github.com/ahrumnoh/teamprofileGeneratorNew/blob/main/assets/2021-09-18%20(4).png?raw=true)
 
-![VS terminal image2](https://github.com/ahrumnoh/team-profileGenerator/blob/main/assets/Screenshot%20(42).png?raw=true)
+![VS terminal image2](https://github.com/ahrumnoh/teamprofileGeneratorNew/blob/main/assets/2021-09-18%20(5).png?raw=true)
 
 
 
 
 ## A finalized actual sample for README FILE
-![Intro Mockup FILE](https://github.com/ahrumnoh/team-profileGenerator/blob/main/assets/Screenshot%20(43).png?raw=true)
+![Intro Mockup FILE](https://github.com/ahrumnoh/teamprofileGeneratorNew/blob/main/assets/2021-09-18%20(10).png?raw=true)
 
 * ✔beautiful frame
 * ✔Easy to manage

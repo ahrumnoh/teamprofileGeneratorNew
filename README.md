@@ -66,9 +66,9 @@ The user should clone the repository from GitHub and download Node. This applica
 * email address in the HTML
 * GitHub username
 * Team manager’s name, employee ID, email address, and office number
-* Engineer option
-* Engineer’s name, ID, email, and GitHub username, and I am taken back to the menu
-* Intern’s name, ID, email, and school, and I am taken back to the menu
+* Engineer or Intern selction option
+* Engineer’s name, ID, email, GitHub username, and city
+* Intern’s name, ID, email, university and graduation year
 * Exit the application, and the HTML is generated
 
 
